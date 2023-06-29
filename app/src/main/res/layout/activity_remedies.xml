@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="
+#1c1162"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/remediesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remedies"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#FFD700"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/remedy1"
+        android:layout_height="wrap_content"
+        android:text="1. First remedy description goes here"
+        android:layout_marginLeft="25sp"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/remedy2"
+        android:text="2. Second remedy description goes here"
+        android:layout_marginLeft="25sp"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/remedy3"
+        android:text="3. Third remedy description goes here"
+        android:layout_marginLeft="25sp"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Fourth remedy description goes here"
+        android:layout_marginLeft="25sp"
+        android:id="@+id/remedy4"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/remedy5"
+        android:text="5. Fifth remedy description goes here"
+        android:layout_marginLeft="25sp"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:layout_marginRight="18dp"
+        />
+
+    <Button
+        android:id="@+id/scanAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remedy5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Scan Again"
+        android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>
+
